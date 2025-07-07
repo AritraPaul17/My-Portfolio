@@ -53,8 +53,8 @@ const Hero = () => {
         </motion.p>
         <motion.a href={Resume} download='Aritra.pdf'
           className="bg-blue-600 hover:bg-blue-700 flex gap-3 w-max items-center text-white px-6 py-3 rounded mx-auto sm:mx-0 cursor-pointer"
-          initial={{ opacity: 0, y: 120 }}
-          whileInView={{ opacity: 1, y: 0 , transition: { duration: 0.5, delay: 1.5 } }}
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: 0 , transition: { duration: 0.5, delay: 1.5 } }}
           whileHover={{ scale: 1.05, boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.1)" }}
           whileTap={{ scale: 0.95 }}
           transition={{

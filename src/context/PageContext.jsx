@@ -12,7 +12,8 @@ export const PageContextProvider = (props) => {
     const contactRef = useRef(null);
 
     const scrollToSection = (reference) => {
-        reference.current.scrollIntoView({ behavior: 'smooth' }); // You can also use { block: 'center' } if needed
+        setShowMenu(false);
+        reference.current.scrollIntoView({ behavior: 'smooth' }); 
     };
 
     return (
