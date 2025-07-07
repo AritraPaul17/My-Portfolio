@@ -49,7 +49,7 @@ const Hero = () => {
           whileInView="visible"
         >
           An enthusiastic and passionate coder with an eye for detail and a focus to produce quality work.
-          id in varius in vitae in pharetra vestibulum pharetra facilisis ullamcorper.
+    
         </motion.p>
         <motion.a href={Resume} download='Aritra.pdf'
           className="bg-blue-600 hover:bg-blue-700 flex gap-3 w-max items-center text-white px-6 py-3 rounded mx-auto sm:mx-0 cursor-pointer"
