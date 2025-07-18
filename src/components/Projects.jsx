@@ -51,7 +51,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-800 rounded-2xl shadow-md p-6 hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between"
+              className="bg-gray-800 rounded-2xl shadow-md p-6 hover:shadow-xl transition-shadow flex flex-col justify-between borderAnimate relative"
             >
               <div>
                 {project.isLeetCode && (

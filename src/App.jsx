@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import { motion } from "motion/react"
 import Stars from './components/Stars';
 import { ToastContainer } from 'react-toastify';
+import Check from './components/Check';
 
 const sidebarVariants = {
   open: {
@@ -56,7 +57,8 @@ function App() {
           <Sidebar />
         </motion.aside>}
         {/* snap-y snap-mandatory */}
-        <main className='h-[calc(100vh-4rem)] md:h-[calc(100vh-5rem)] w-full overflow-x-hidden overflow-y-scroll snap-y snap-mandatory scroll-smooth scrollbar-custom'>
+        <main className='h-[calc(100vh-4rem)] md:h-[calc(100vh-5rem)] w-full overflow-x-hidden 
+         snap-y snap-mandatory scroll-smooth scrollbar-custom'>
           <section className='h-full w-full snap-center' ref={homeRef}><Hero /></section>
           <section className='h-full w-full snap-center' ref={aboutRef}><About /></section>
           <section className='h-full w-full snap-center' ref={skillRef}><Skill /></section>

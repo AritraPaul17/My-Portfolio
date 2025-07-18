@@ -29,7 +29,7 @@ const Skill = () => {
           I am doing Bachelor's in Software Engineering and I will graduate in the year
           2021. I am a UI/UX designer and currently working as a freelancer.
         </p>
-        <div className="h-full w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center justify-center p-4 overflow-y-auto scrollbar-custom">
+        <div className="h-full w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center justify-center p-4 overflow-y-auto scrollbar-custom gap-3">
           <SkillCard icon={<FaHtml5 className="text-orange-500" size={48} />} label="HTML" />
           <SkillCard icon={<FaCss3Alt className="text-blue-500" size={48} />} label="CSS" />
           <SkillCard icon={<FaJava className="text-pink-500" size={48} />} label="Java" />
@@ -49,7 +49,7 @@ const Skill = () => {
 
 
 export const SkillCard = ({ icon, label }) => (
-  <div className="h-36 w-36 p-2 sm:h-44 sm:w-44 bg-transparent rounded-lg shadow-[0_20px_40px_rgba(0,0,0,0.5)] transition hover:scale-115 duration-300 cursor-pointer">
+  <div className="h-36 w-36 p-2 sm:h-44 sm:w-44 rounded-lg shadow-[0_20px_40px_rgba(0,0,0,0.5)] transition  cursor-pointer skillborder relative bg-black">
     <motion.div
       className='h-24 sm:h-28 flex flex-col items-center justify-center'
       animate={{
