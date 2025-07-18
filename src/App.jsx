@@ -11,7 +11,6 @@ import Contact from './components/Contact';
 import { motion } from "motion/react"
 import Stars from './components/Stars';
 import { ToastContainer } from 'react-toastify';
-import Check from './components/Check';
 
 const sidebarVariants = {
   open: {
